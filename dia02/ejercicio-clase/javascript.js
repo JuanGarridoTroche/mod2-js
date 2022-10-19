@@ -35,3 +35,29 @@ let description = `Tienes ${numMensajes} mensaje${
   numMensajes === 1 ? "" : "s"
 } nuevo${numMensajes === 1 ? "" : "s"}.`;
 console.log(description);
+
+/* SWITCH */
+let op1 = 10;
+let op2 = 3;
+let operador = "*";
+let resultado = null;
+
+switch (operador) {
+  case "+":
+    resultado = op1 + op2;
+    break;
+  case "-":
+    resultado = op1 - op2;
+    break;
+  case "*":
+    resultado = op1 * op2;
+    break;
+  case "/":
+    resultado = op1 / op2;
+    break;
+  default:
+    resultado = "Por favor, introduzca un operador válido";
+    break;
+}
+
+console.log(resultado);
