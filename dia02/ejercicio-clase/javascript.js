@@ -39,7 +39,7 @@ console.log(description);
 /* SWITCH */
 let op1 = 10;
 let op2 = 3;
-let operador = "*";
+let operador = "/";
 let resultado = null;
 
 switch (operador) {
@@ -60,4 +60,4 @@ switch (operador) {
     break;
 }
 
-console.log(resultado);
+console.log(`El resultado es: ${resultado}`);
